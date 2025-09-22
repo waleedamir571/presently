@@ -2965,7 +2965,7 @@ relaxed and assertive"></textarea>
                         </div>
                     </div>
                 </div>
-                 <div class="list-group ">
+                <div class="list-group ">
                     <!-- Folder Item -->
                     <div class="shadow-1 folder-box" data-bs-toggle="modal"
                         data-bs-target=".bd-example-modal-fullscreen">
@@ -3084,16 +3084,14 @@ relaxed and assertive"></textarea>
 </div>
 
 <div class="modal fade" id="exampleModaln2" tabindex="-1" aria-labelledby="exampleModaln2" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-bottom">
         <div class="modal-content rounded-4 shadow-lg">
             <div class="modal-body p-4 d-flex">
-                <!-- Header -->
 
-
-                <!-- Search + Create -->
-                <div class="audio-card shadow">
+                <div class="audio-card shadow w-100 d-flex align-items-center justify-content-between">
                     <!-- Icon -->
-                    <img src="assets/images/logo/comp.png" alt="icon" class="rounded">
+                    <img src="assets/images/logo/comp.png" alt="icon" class="rounded me-3"
+                        style="width:48px;height:48px;">
 
                     <!-- Text -->
                     <div class="audio-info flex-grow-1">
@@ -3121,12 +3119,9 @@ relaxed and assertive"></textarea>
                                     d="M9.99992 2.90019C9.93325 2.90019 9.86658 2.90853 9.79992 2.90853L10.4833 2.05853C10.6999 1.79186 10.6583 1.39186 10.3833 1.18353C10.1083 0.975193 9.72492 1.00853 9.50825 1.28353L7.86658 3.33353C7.85825 3.34186 7.85825 3.35019 7.84992 3.36686C7.82492 3.40019 7.80825 3.44186 7.79159 3.47519C7.77492 3.51686 7.75825 3.55019 7.74992 3.58353C7.74159 3.62519 7.74159 3.65853 7.74159 3.70019C7.74159 3.74186 7.74159 3.78353 7.74159 3.82519C7.74159 3.84186 7.74159 3.85019 7.74159 3.86686C7.74992 3.89186 7.76659 3.90853 7.77492 3.93353C7.79159 3.97519 7.80825 4.00853 7.82492 4.05019C7.84992 4.08353 7.87492 4.11686 7.90825 4.14186C7.92492 4.16686 7.93325 4.19186 7.95825 4.20853C7.97492 4.21686 7.98325 4.22519 7.99992 4.23353C8.02492 4.25019 8.04159 4.25853 8.06659 4.26686C8.10825 4.29186 8.15825 4.30853 8.20825 4.31686C8.23325 4.33353 8.25825 4.33353 8.28325 4.33353C8.30825 4.33353 8.32492 4.34186 8.34992 4.34186C8.37492 4.34186 8.39159 4.33353 8.40825 4.32519C8.43325 4.32519 8.45825 4.33353 8.48325 4.32519C9.01659 4.20019 9.51658 4.14186 9.99158 4.14186C13.7333 4.14186 16.7749 7.18353 16.7749 10.9252C16.7749 14.6669 13.7333 17.7085 9.99158 17.7085C6.24992 17.7085 3.20825 14.6669 3.20825 10.9252C3.20825 9.47519 3.68325 8.07519 4.58325 6.87519C4.79159 6.60019 4.73325 6.20853 4.45825 6.00019C4.18325 5.79186 3.79159 5.85019 3.58325 6.12519C2.51659 7.54186 1.95825 9.20019 1.95825 10.9252C1.95825 15.3502 5.55825 18.9585 9.99158 18.9585C14.4249 18.9585 18.0249 15.3585 18.0249 10.9252C18.0249 6.49186 14.4249 2.90019 9.99992 2.90019Z"
                                     fill="#1C0C13" />
                             </svg></button>
-                        <button class="play-btn"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42"
-                                viewBox="0 0 42 42" fill="none">
-                                <path
-                                    d="M20.9475 3.5C11.2875 3.5 3.44751 11.34 3.44751 21C3.44751 30.66 11.2875 38.5 20.9475 38.5C30.6075 38.5 38.4475 30.66 38.4475 21C38.4475 11.34 30.625 3.5 20.9475 3.5ZM26.1975 24.9025L21.1225 27.825C20.4925 28.1925 19.7925 28.3675 19.11 28.3675C18.41 28.3675 17.7275 28.1925 17.0975 27.825C15.8375 27.09 15.085 25.795 15.085 24.325V18.4625C15.085 17.01 15.8375 15.6975 17.0975 14.9625C18.3575 14.2275 19.8625 14.2275 21.14 14.9625L26.215 17.885C27.475 18.62 28.2275 19.915 28.2275 21.385C28.2275 22.855 27.475 24.1675 26.1975 24.9025Z"
-                                    fill="#1C0C13" />
-                            </svg></button>
+                        <button
+                            class="play-btn btn btn-dark rounded-circle d-flex align-items-center justify-content-center"
+                            style="width:42px;height:42px;">▶</button>
                         <button class="btn btn-sm btn-light rounded-circle"><svg xmlns="http://www.w3.org/2000/svg"
                                 width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path
@@ -3138,8 +3133,6 @@ relaxed and assertive"></textarea>
                             </svg></button>
                     </div>
                 </div>
-
-
 
             </div>
         </div>
