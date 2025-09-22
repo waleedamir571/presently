@@ -398,8 +398,8 @@
 
                         </li>
                         <br>
-                        <li class="sidebar-main-title" data-bs-toggle="modal" data-original-title="test" data-bs-target="#exampleModaln1">
-                            <button class="gradient-button">
+                        <li class="sidebar-main-title" >
+                            <button class="gradient-button" data-bs-toggle="modal" data-original-title="test" data-bs-target="#exampleModaln1">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
@@ -508,3 +508,100 @@
                 </div>
                 <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
             </aside>
+
+
+
+            <div class="modal fade" id="exampleModaln1" tabindex="-1" aria-labelledby="exampleModaln1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 shadow-lg">
+            <div class="modal-body p-4">
+                <!-- Header -->
+                <div class="d-flex align-items-center mb-4">
+                    <img src="assets/images/logo/sounD.png" alt="icon" width="40" height="40" class="me-2">
+                    <h4 class="project">Add New Folder</h4>
+                </div>
+
+                <!-- Subtext -->
+                <p class="text2">You can join a folder to keep track of what folks are working on.</p>
+
+                <!-- Search + Create -->
+                <div class="row mb-3">
+                    <div class="col-md-7">
+                        <input type="text" class="form-control me-2" placeholder="Find or create a new folder">
+                    </div>
+                    <div class="col-md-5">
+                        <button class="btn create"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                viewBox="0 0 19 19" fill="none">
+                                <path d="M9.81982 12.875V9.125" stroke="#1C0C13" stroke-width="1.125"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.6499 11H7.8999" stroke="#1C0C13" stroke-width="1.125"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M17.2749 8.75V13.25C17.2749 16.25 16.5249 17 13.5249 17H6.0249C3.0249 17 2.2749 16.25 2.2749 13.25V5.75C2.2749 2.75 3.0249 2 6.0249 2H7.1499C8.2749 2 8.5224 2.33 8.9499 2.9L10.0749 4.4C10.3599 4.775 10.5249 5 11.2749 5H13.5249C16.5249 5 17.2749 5.75 17.2749 8.75Z"
+                                    stroke="#1C0C13" stroke-width="1.125" stroke-miterlimit="10" />
+                            </svg> Create Folder</button>
+                    </div>
+                </div>
+
+                <!-- Folder List -->
+                <div class="list-group">
+                    <!-- Folder Item -->
+                    <div class="  shadow-1 folder-box" data-bs-toggle="modal"
+                        data-bs-target=".bd-example-modal-fullscreen">
+                        <div class="d-flex align-items-start">
+                            <img src="assets/images/logo/marketing.png" alt="ppt-icon" class="me-3">
+                            <div>
+                                <h6 class="mb-1 ppt">Marketing Strategy - Q4 2023</h6>
+                                <p class="text2">8 member, Including you</p>
+
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/people.png" alt="ppt-icon" class="me-3">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/leave.png" alt="ppt-icon" class="me-3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Another Folder -->
+                    <div class="  shadow-1 folder-box">
+                        <div class="d-flex align-items-start">
+                            <img src="assets/images/logo/marketing.png" alt="ppt-icon" class="me-3">
+                            <div>
+                                <h6 class="mb-1 ppt">Product Launch - Q1 2024</h6>
+                                <p class="text2">8 member, Including you</p>
+
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/people.png" alt="ppt-icon" class="me-3">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/leave.png" alt="ppt-icon" class="me-3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Another Folder -->
+                    <div class="  shadow-1 folder-box">
+                        <div class="d-flex align-items-start">
+                            <img src="assets/images/logo/marketing.png" alt="ppt-icon" class="me-3">
+                            <div>
+                                <h6 class="mb-1 ppt">Customer Feedback Review - </h6>
+                                <p class="text2">8 member, Including you</p>
+
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/people.png" alt="ppt-icon" class="me-3">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/leave.png" alt="ppt-icon" class="me-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
