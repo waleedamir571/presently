@@ -2950,9 +2950,8 @@ relaxed and assertive"></textarea>
                 <!-- Folder List -->
                 <div class="list-group ">
                     <!-- Folder Item -->
-                    <div class="shadow-1 folder-box" data-bs-toggle="modal"
-                        data-bs-target=".bd-example-modal-fullscreen">
-                        <div class="d-flex align-items-center">
+                    <div class="shadow-1 folder-box" >
+                        <div class="d-flex align-items-center gap-25">
                             <img src="assets/images/logo/g1.png" alt="ppt-icon" class="me-3">
 
                             <div>
@@ -2965,11 +2964,11 @@ relaxed and assertive"></textarea>
                         </div>
                     </div>
                 </div>
+                <br>
                 <div class="list-group ">
                     <!-- Folder Item -->
-                    <div class="shadow-1 folder-box" data-bs-toggle="modal"
-                        data-bs-target=".bd-example-modal-fullscreen">
-                        <div class="d-flex align-items-center">
+                    <div class="shadow-1 folder-box" >
+                        <div class="d-flex align-items-center gap-25">
                             <img src="assets/images/logo/g2.png" alt="ppt-icon" class="me-3">
 
                             <div>

@@ -351,6 +351,10 @@
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
     }
 
+    .gap-25{
+      gap: 25px;
+    }
+
 .modal-bottom {
     position: fixed;
     bottom: -25rem;
