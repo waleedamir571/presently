@@ -360,7 +360,7 @@
 
                         </li>
                         <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link"
-                                href="javascript:void(0)">
+                                href="marketing-strategy.php">
                                 <svg class="stroke-icon">
                                     <use
                                         href="https://admin.pixelstrap.net/admiro/assets/svg/iconly-sprite.svg#Home-dashboard">
@@ -398,7 +398,7 @@
 
                         </li>
                         <br>
-                        <li class="sidebar-main-title">
+                        <li class="sidebar-main-title" data-bs-toggle="modal" data-original-title="test" data-bs-target="#exampleModaln1">
                             <button class="gradient-button">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"

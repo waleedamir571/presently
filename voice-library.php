@@ -89,10 +89,10 @@
                         </button>
                     </li>
                 </ul>
-               <button id="addCollectionBtn" class="create-btn" data-bs-toggle="modal" data-original-title="test"
-    data-bs-target="#exampleModalv10">+
-    Add Collections
-</button>
+                <button id="addCollectionBtn" class="create-btn" data-bs-toggle="modal" data-original-title="test"
+                    data-bs-target="#exampleModalv10">+
+                    Add Collections
+                </button>
             </div>
 
             <div class="tab-content pt-3" id="projectTabsContent">
@@ -140,7 +140,9 @@
 
                                                         <!-- Dropdown Menu -->
                                                         <div class="dropdown-menu p-3 text-muted form-wrapper">
-                                                            <p class="mb-2 foler"><svg
+                                                            <p class="mb-2 foler" data-bs-toggle="modal"
+                                                                data-original-title="test"
+                                                                data-bs-target="#exampleModaln3"><svg
                                                                     xmlns="http://www.w3.org/2000/svg" width="17"
                                                                     height="17" viewBox="0 0 17 17" fill="none">
                                                                     <path
@@ -1245,7 +1247,8 @@
                                                     <div class=" user-info">
 
                                                         <img src="assets/images/logo/user1.png" alt="">
-                                                        <div class="text">
+                                                        <div class="text" data-bs-toggle="modal"
+                                                            data-original-title="test" data-bs-target="#exampleModaln2">
 
                                                             <p>Created by Lvanna<br><span class="last">uploaded 20 day’s
                                                                     ago</span></p>
@@ -1317,7 +1320,7 @@
                                             <div class="col-md-9">
                                                 <div class="p-15">
                                                     <h3>Ivanna - Young & Casual</h3>
-                                                     <p class="last">Engaging</p>
+                                                    <p class="last">Engaging</p>
                                                     <div class=" user-info">
 
                                                         <img src="assets/images/logo/user1.png" alt="">
@@ -1393,7 +1396,7 @@
                                             <div class="col-md-9">
                                                 <div class="p-15">
                                                     <h3>Ivanna - Young & Casual</h3>
-                                                      <p class="last">Formal</p>
+                                                    <p class="last">Formal</p>
                                                     <div class=" user-info">
 
                                                         <img src="assets/images/logo/user1.png" alt="">
@@ -1463,7 +1466,7 @@
 
                             <br>
                             <div class="row">
-                                 <div class="col-md-4">
+                                <div class="col-md-4">
                                     <div class="project-card">
                                         <div class="row">
                                             <div class="col-md-3">
@@ -1475,7 +1478,7 @@
                                             <div class="col-md-9">
                                                 <div class="p-15">
                                                     <h3>Ivanna - Young & Casual</h3>
-                                                      <p class="last">Formal</p>
+                                                    <p class="last">Formal</p>
                                                     <div class=" user-info">
 
                                                         <img src="assets/images/logo/user1.png" alt="">
@@ -1539,7 +1542,7 @@
 
                                     </div>
                                 </div>
-                                  <div class="col-md-4">
+                                <div class="col-md-4">
                                     <div class="project-card">
                                         <div class="row">
                                             <div class="col-md-3">
@@ -1551,7 +1554,7 @@
                                             <div class="col-md-9">
                                                 <div class="p-15">
                                                     <h3>Ivanna - Young & Casual</h3>
-                                                      <p class="last">Formal</p>
+                                                    <p class="last">Formal</p>
                                                     <div class=" user-info">
 
                                                         <img src="assets/images/logo/user1.png" alt="">
@@ -1615,7 +1618,7 @@
 
                                     </div>
                                 </div>
-  <div class="col-md-4">
+                                <div class="col-md-4">
                                     <div class="project-card">
                                         <div class="row">
                                             <div class="col-md-3">
@@ -1627,7 +1630,7 @@
                                             <div class="col-md-9">
                                                 <div class="p-15">
                                                     <h3>Ivanna - Young & Casual</h3>
-                                                      <p class="last">Formal</p>
+                                                    <p class="last">Formal</p>
                                                     <div class=" user-info">
 
                                                         <img src="assets/images/logo/user1.png" alt="">
@@ -1714,7 +1717,7 @@
                                     </svg></p>
                             </div>
                             <div class="row">
-                                 <div class="col-md-4">
+                                <div class="col-md-4">
                                     <div class="project-card">
                                         <div class="row">
                                             <div class="col-md-3">
@@ -1726,7 +1729,7 @@
                                             <div class="col-md-9">
                                                 <div class="p-15">
                                                     <h3>Ivanna - Young & Casual</h3>
-                                                      <p class="last">Formal</p>
+                                                    <p class="last">Formal</p>
                                                     <div class=" user-info">
 
                                                         <img src="assets/images/logo/user1.png" alt="">
@@ -1790,7 +1793,7 @@
 
                                     </div>
                                 </div>
-  <div class="col-md-4">
+                                <div class="col-md-4">
                                     <div class="project-card">
                                         <div class="row">
                                             <div class="col-md-3">
@@ -1802,7 +1805,7 @@
                                             <div class="col-md-9">
                                                 <div class="p-15">
                                                     <h3>Ivanna - Young & Casual</h3>
-                                                      <p class="last">Formal</p>
+                                                    <p class="last">Formal</p>
                                                     <div class=" user-info">
 
                                                         <img src="assets/images/logo/user1.png" alt="">
@@ -1866,7 +1869,7 @@
 
                                     </div>
                                 </div>
-  <div class="col-md-4">
+                                <div class="col-md-4">
                                     <div class="project-card">
                                         <div class="row">
                                             <div class="col-md-3">
@@ -1878,7 +1881,7 @@
                                             <div class="col-md-9">
                                                 <div class="p-15">
                                                     <h3>Ivanna - Young & Casual</h3>
-                                                      <p class="last">Formal</p>
+                                                    <p class="last">Formal</p>
                                                     <div class=" user-info">
 
                                                         <img src="assets/images/logo/user1.png" alt="">
@@ -2923,6 +2926,221 @@ relaxed and assertive"></textarea>
                             d="M8.00936 2.04754L9.03602 4.10087C9.17602 4.38671 9.54936 4.66087 9.86436 4.71337L11.7252 5.02254C12.9152 5.22087 13.1952 6.08421 12.3377 6.93587L10.891 8.38254C10.646 8.62754 10.5119 9.10004 10.5877 9.43837L11.0019 11.2292C11.3285 12.6467 10.576 13.195 9.32186 12.4542L7.57769 11.4217C7.26269 11.235 6.74352 11.235 6.42269 11.4217L4.67852 12.4542C3.43019 13.195 2.67186 12.6409 2.99852 11.2292L3.41269 9.43837C3.48852 9.10004 3.35436 8.62754 3.10936 8.38254L1.66269 6.93587C0.811024 6.08421 1.08519 5.22087 2.27519 5.02254L4.13602 4.71337C4.44519 4.66087 4.81852 4.38671 4.95852 4.10087L5.98519 2.04754C6.54519 0.933372 7.45519 0.933372 8.00936 2.04754Z"
                             stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg> Add Collection</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="exampleModaln3" tabindex="-1" aria-labelledby="exampleModaln3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 shadow-lg">
+            <div class="modal-body p-4">
+                <!-- Header -->
+                <div class="d-flex align-items-center mb-4">
+                    <img src="assets/images/logo/sounD.png" alt="icon" width="40" height="40" class="me-2">
+                    <h4 class="project">Add New Folder</h4>
+                </div>
+
+                <!-- Subtext -->
+
+
+                <!-- Search + Create -->
+
+                <!-- Folder List -->
+                <div class="list-group ">
+                    <!-- Folder Item -->
+                    <div class="shadow-1 folder-box" data-bs-toggle="modal"
+                        data-bs-target=".bd-example-modal-fullscreen">
+                        <div class="d-flex align-items-center">
+                            <img src="assets/images/logo/g1.png" alt="ppt-icon" class="me-3">
+
+                            <div>
+                                <h6 class="mb-1 ppt">Bring your stories to life</h6>
+                            </div>
+
+                            <div>
+                                <img src="assets/images/logo/g3.png" alt="ppt-icon" class="ms-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="list-group ">
+                    <!-- Folder Item -->
+                    <div class="shadow-1 folder-box" data-bs-toggle="modal"
+                        data-bs-target=".bd-example-modal-fullscreen">
+                        <div class="d-flex align-items-center">
+                            <img src="assets/images/logo/g2.png" alt="ppt-icon" class="me-3">
+
+                            <div>
+                                <h6 class="mb-1 ppt">Bring your stories to life</h6>
+                            </div>
+
+                            <div>
+                                <img src="assets/images/logo/g3.png" alt="ppt-icon" class="ms-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModaln1" tabindex="-1" aria-labelledby="exampleModaln1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 shadow-lg">
+            <div class="modal-body p-4">
+                <!-- Header -->
+                <div class="d-flex align-items-center mb-4">
+                    <img src="assets/images/logo/sounD.png" alt="icon" width="40" height="40" class="me-2">
+                    <h4 class="project">Add New Folder</h4>
+                </div>
+
+                <!-- Subtext -->
+                <p class="text2">You can join a folder to keep track of what folks are working on.</p>
+
+                <!-- Search + Create -->
+                <div class="row mb-3">
+                    <div class="col-md-7">
+                        <input type="text" class="form-control me-2" placeholder="Find or create a new folder">
+                    </div>
+                    <div class="col-md-5">
+                        <button class="btn create"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                viewBox="0 0 19 19" fill="none">
+                                <path d="M9.81982 12.875V9.125" stroke="#1C0C13" stroke-width="1.125"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M11.6499 11H7.8999" stroke="#1C0C13" stroke-width="1.125"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M17.2749 8.75V13.25C17.2749 16.25 16.5249 17 13.5249 17H6.0249C3.0249 17 2.2749 16.25 2.2749 13.25V5.75C2.2749 2.75 3.0249 2 6.0249 2H7.1499C8.2749 2 8.5224 2.33 8.9499 2.9L10.0749 4.4C10.3599 4.775 10.5249 5 11.2749 5H13.5249C16.5249 5 17.2749 5.75 17.2749 8.75Z"
+                                    stroke="#1C0C13" stroke-width="1.125" stroke-miterlimit="10" />
+                            </svg> Create Folder</button>
+                    </div>
+                </div>
+
+                <!-- Folder List -->
+                <div class="list-group">
+                    <!-- Folder Item -->
+                    <div class="  shadow-1 folder-box" data-bs-toggle="modal"
+                        data-bs-target=".bd-example-modal-fullscreen">
+                        <div class="d-flex align-items-start">
+                            <img src="assets/images/logo/marketing.png" alt="ppt-icon" class="me-3">
+                            <div>
+                                <h6 class="mb-1 ppt">Marketing Strategy - Q4 2023</h6>
+                                <p class="text2">8 member, Including you</p>
+
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/people.png" alt="ppt-icon" class="me-3">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/leave.png" alt="ppt-icon" class="me-3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Another Folder -->
+                    <div class="  shadow-1 folder-box">
+                        <div class="d-flex align-items-start">
+                            <img src="assets/images/logo/marketing.png" alt="ppt-icon" class="me-3">
+                            <div>
+                                <h6 class="mb-1 ppt">Product Launch - Q1 2024</h6>
+                                <p class="text2">8 member, Including you</p>
+
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/people.png" alt="ppt-icon" class="me-3">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/leave.png" alt="ppt-icon" class="me-3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Another Folder -->
+                    <div class="  shadow-1 folder-box">
+                        <div class="d-flex align-items-start">
+                            <img src="assets/images/logo/marketing.png" alt="ppt-icon" class="me-3">
+                            <div>
+                                <h6 class="mb-1 ppt">Customer Feedback Review - </h6>
+                                <p class="text2">8 member, Including you</p>
+
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/people.png" alt="ppt-icon" class="me-3">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo/leave.png" alt="ppt-icon" class="me-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModaln2" tabindex="-1" aria-labelledby="exampleModaln2" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-4 shadow-lg">
+            <div class="modal-body p-4 d-flex">
+                <!-- Header -->
+
+
+                <!-- Search + Create -->
+                <div class="audio-card shadow">
+                    <!-- Icon -->
+                    <img src="assets/images/logo/comp.png" alt="icon" class="rounded">
+
+                    <!-- Text -->
+                    <div class="audio-info flex-grow-1">
+                        <h6>Ella - Fun & Playful</h6>
+                        <p>Light-hearted</p>
+
+                        <!-- Progress Bar -->
+                        <div class="d-flex align-items-center mt-2">
+                            <small>0:05</small>
+                            <div class="progress flex-grow-1 mx-2">
+                                <div class="progress-bar bg-dark" style="width: 70%"></div>
+                            </div>
+                            <small>0:07</small>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <div class="d-flex align-items-center gap-2 ms-2">
+                        <button class="btn btn-sm btn-light rounded-circle"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M10.3167 14.0999H8.40836C8.06669 14.0999 7.78336 13.8166 7.78336 13.4749C7.78336 13.1333 8.06669 12.8499 8.40836 12.8499H10.3167C10.675 12.8499 10.9667 12.5583 10.9667 12.1999C10.9667 11.8416 10.675 11.5499 10.3167 11.5499H8.40836C8.20836 11.5499 8.01669 11.4499 7.90003 11.2916C7.78336 11.1333 7.75003 10.9166 7.81669 10.7249L8.45003 8.8166C8.53336 8.55827 8.77503 8.3916 9.04169 8.3916H11.5917C11.9334 8.3916 12.2167 8.67493 12.2167 9.0166C12.2167 9.35827 11.9334 9.6416 11.5917 9.6416H9.49169L9.27503 10.2999H10.3167C11.3667 10.2999 12.2167 11.1499 12.2167 12.1999C12.2167 13.2499 11.3667 14.0999 10.3167 14.0999Z"
+                                    fill="#1C0C13" />
+                                <path
+                                    d="M9.99992 2.90019C9.93325 2.90019 9.86658 2.90853 9.79992 2.90853L10.4833 2.05853C10.6999 1.79186 10.6583 1.39186 10.3833 1.18353C10.1083 0.975193 9.72492 1.00853 9.50825 1.28353L7.86658 3.33353C7.85825 3.34186 7.85825 3.35019 7.84992 3.36686C7.82492 3.40019 7.80825 3.44186 7.79159 3.47519C7.77492 3.51686 7.75825 3.55019 7.74992 3.58353C7.74159 3.62519 7.74159 3.65853 7.74159 3.70019C7.74159 3.74186 7.74159 3.78353 7.74159 3.82519C7.74159 3.84186 7.74159 3.85019 7.74159 3.86686C7.74992 3.89186 7.76659 3.90853 7.77492 3.93353C7.79159 3.97519 7.80825 4.00853 7.82492 4.05019C7.84992 4.08353 7.87492 4.11686 7.90825 4.14186C7.92492 4.16686 7.93325 4.19186 7.95825 4.20853C7.97492 4.21686 7.98325 4.22519 7.99992 4.23353C8.02492 4.25019 8.04159 4.25853 8.06659 4.26686C8.10825 4.29186 8.15825 4.30853 8.20825 4.31686C8.23325 4.33353 8.25825 4.33353 8.28325 4.33353C8.30825 4.33353 8.32492 4.34186 8.34992 4.34186C8.37492 4.34186 8.39159 4.33353 8.40825 4.32519C8.43325 4.32519 8.45825 4.33353 8.48325 4.32519C9.01659 4.20019 9.51658 4.14186 9.99158 4.14186C13.7333 4.14186 16.7749 7.18353 16.7749 10.9252C16.7749 14.6669 13.7333 17.7085 9.99158 17.7085C6.24992 17.7085 3.20825 14.6669 3.20825 10.9252C3.20825 9.47519 3.68325 8.07519 4.58325 6.87519C4.79159 6.60019 4.73325 6.20853 4.45825 6.00019C4.18325 5.79186 3.79159 5.85019 3.58325 6.12519C2.51659 7.54186 1.95825 9.20019 1.95825 10.9252C1.95825 15.3502 5.55825 18.9585 9.99158 18.9585C14.4249 18.9585 18.0249 15.3585 18.0249 10.9252C18.0249 6.49186 14.4249 2.90019 9.99992 2.90019Z"
+                                    fill="#1C0C13" />
+                            </svg></button>
+                        <button class="play-btn"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42"
+                                viewBox="0 0 42 42" fill="none">
+                                <path
+                                    d="M20.9475 3.5C11.2875 3.5 3.44751 11.34 3.44751 21C3.44751 30.66 11.2875 38.5 20.9475 38.5C30.6075 38.5 38.4475 30.66 38.4475 21C38.4475 11.34 30.625 3.5 20.9475 3.5ZM26.1975 24.9025L21.1225 27.825C20.4925 28.1925 19.7925 28.3675 19.11 28.3675C18.41 28.3675 17.7275 28.1925 17.0975 27.825C15.8375 27.09 15.085 25.795 15.085 24.325V18.4625C15.085 17.01 15.8375 15.6975 17.0975 14.9625C18.3575 14.2275 19.8625 14.2275 21.14 14.9625L26.215 17.885C27.475 18.62 28.2275 19.915 28.2275 21.385C28.2275 22.855 27.475 24.1675 26.1975 24.9025Z"
+                                    fill="#1C0C13" />
+                            </svg></button>
+                        <button class="btn btn-sm btn-light rounded-circle"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M16.2334 5.90844C16.0168 5.64178 15.6251 5.60011 15.3584 5.81678C15.0918 6.03344 15.0501 6.42511 15.2668 6.69178C16.2084 7.85844 16.7334 9.24178 16.7834 10.6918C16.9168 14.4251 13.9834 17.5751 10.2418 17.7001C6.50011 17.8334 3.35844 14.9001 3.22511 11.1668C3.09178 7.43344 6.02511 4.28344 9.76678 4.15844C10.2418 4.14178 10.7418 4.18344 11.2834 4.29178C11.3168 4.30011 11.3501 4.29178 11.3834 4.29178C11.4668 4.33344 11.5668 4.35844 11.6584 4.35844C11.8001 4.35844 11.9334 4.31678 12.0501 4.21678C12.3168 4.00011 12.3584 3.60844 12.1501 3.34178L10.5001 1.28344C10.2834 1.01678 9.89178 0.966776 9.62511 1.18344C9.35844 1.40011 9.31678 1.79178 9.52511 2.05844L10.2168 2.91678C10.0584 2.90844 9.89178 2.90011 9.73344 2.90844C5.30844 3.05844 1.83344 6.79178 1.99178 11.2168C2.15011 15.6418 5.87511 19.1168 10.3001 18.9584C14.7251 18.8001 18.2001 15.0751 18.0418 10.6501C17.9668 8.92511 17.3501 7.28344 16.2334 5.90844Z"
+                                    fill="#1C0C13" />
+                                <path
+                                    d="M10.3167 14.0999H8.40836C8.06669 14.0999 7.78336 13.8166 7.78336 13.4749C7.78336 13.1333 8.06669 12.8499 8.40836 12.8499H10.3167C10.675 12.8499 10.9667 12.5583 10.9667 12.1999C10.9667 11.8416 10.675 11.5499 10.3167 11.5499H8.40836C8.20836 11.5499 8.01669 11.4499 7.90003 11.2916C7.78336 11.1333 7.75003 10.9166 7.81669 10.7249L8.45003 8.8166C8.53336 8.55827 8.77503 8.3916 9.04169 8.3916H11.5917C11.9334 8.3916 12.2167 8.67493 12.2167 9.0166C12.2167 9.35827 11.9334 9.6416 11.5917 9.6416H9.49169L9.27503 10.2999H10.3167C11.3667 10.2999 12.2167 11.1499 12.2167 12.1999C12.2167 13.2499 11.3667 14.0999 10.3167 14.0999Z"
+                                    fill="#1C0C13" />
+                            </svg></button>
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
     </div>

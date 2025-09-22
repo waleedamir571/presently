@@ -244,6 +244,7 @@
                                                 stroke="#1C0C13" stroke-width="0.875" stroke-linecap="round"
                                                 stroke-linejoin="round" />
                                         </svg> Full Access</button>
+
                                 </div>
 
                             </div>
@@ -264,7 +265,7 @@
                                 </div>
 
                                 <div class="marco-right-section">
-                                    <button class="access"><svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                    <!-- <button class="access"><svg xmlns="http://www.w3.org/2000/svg" width="15"
                                             height="15" viewBox="0 0 15 15" fill="none">
                                             <path
                                                 d="M8.45882 7.32682C8.45882 9.18182 6.95966 10.681 5.10466 10.681C3.24966 10.681 1.75049 9.18182 1.75049 7.32682C1.75049 5.47182 3.24966 3.97266 5.10466 3.97266"
@@ -274,7 +275,38 @@
                                                 d="M6.41699 7.32715C6.41699 5.39632 7.98616 3.82715 9.91699 3.82715C11.8478 3.82715 13.417 5.39632 13.417 7.32715C13.417 9.25798 11.8478 10.8271 9.91699 10.8271"
                                                 stroke="#1C0C13" stroke-width="0.875" stroke-linecap="round"
                                                 stroke-linejoin="round" />
-                                        </svg> View Only</button>
+                                        </svg> View Only</button> -->
+                                    <div class=" dropdown-toggle" data-bs-toggle="dropdown">
+                                        <button class="access"><svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                                height="15" viewBox="0 0 15 15" fill="none">
+                                                <path
+                                                    d="M8.45882 7.32682C8.45882 9.18182 6.95966 10.681 5.10466 10.681C3.24966 10.681 1.75049 9.18182 1.75049 7.32682C1.75049 5.47182 3.24966 3.97266 5.10466 3.97266"
+                                                    stroke="#1C0C13" stroke-width="0.875" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M6.41699 7.32715C6.41699 5.39632 7.98616 3.82715 9.91699 3.82715C11.8478 3.82715 13.417 5.39632 13.417 7.32715C13.417 9.25798 11.8478 10.8271 9.91699 10.8271"
+                                                    stroke="#1C0C13" stroke-width="0.875" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg> View Only</button>
+                                    </div>
+
+                                    <!-- Dropdown Menu -->
+                                    <div class="dropdown-menu p-3 text-muted form-wrapper">
+                                        <p class="mb-2 title" data-bs-toggle="modal" data-original-title="test"
+                                            data-bs-target="#exampleModaln1"> Permissions</p>
+                                     <div class="marco-text-block">
+                                        <div class="title">Full Access</div>
+                                        <div class="text2">Can view, edit, and share with others.</div>
+                                    </div>
+                                     <div class="marco-text-block">
+                                        <div class="title">Edit</div>
+                                        <div class="text2">Can view, edit, but not share with others.</div>
+                                    </div>
+                                     <div class="marco-text-block">
+                                        <div class="title">View Only</div>
+                                        <div class="text2">Can view but cannot edit or share.</div>
+                                    </div>
+                                    </div>
                                 </div>
 
                             </div>
