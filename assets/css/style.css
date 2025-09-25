@@ -725,7 +725,7 @@ line-height: normal;
     transition: transform 0.2s;
     border-radius: 16px;
     background: #FFF;
-    width: 191px;
+    width: auto;
 }
 
 .card-step.active {
@@ -35520,7 +35520,7 @@ footer p .footer-icon {
     border-radius: 15px;
     border-image: none;
     box-sizing: border-box;
-    height: 345px;
+    /* height: 345px; */
     position: relative;
     overflow: auto;
     overflow-x: hidden;
