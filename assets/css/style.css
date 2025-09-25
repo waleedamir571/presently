@@ -35520,7 +35520,7 @@ footer p .footer-icon {
     border-radius: 15px;
     border-image: none;
     box-sizing: border-box;
-    /* height: 345px; */
+    height: 100%;
     position: relative;
     overflow: auto;
     overflow-x: hidden;
