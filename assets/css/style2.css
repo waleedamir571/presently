@@ -352,7 +352,7 @@ line-height: normal;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 0px;
+    padding: 16px 10px;
     border-radius: 14px;
     background: #FFF;
     box-shadow: -4.646px 5.575px 37.727px 0px rgba(0, 0, 0, 0.05);

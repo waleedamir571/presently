@@ -3,7 +3,7 @@
 
 
 <div class="app-container d-flex">
-  
+
 
   <!-- Left Sidebar -->
   <aside class="sidebar-custom border-end p-3" style="width: 260px; overflow-y: auto;">
@@ -237,6 +237,264 @@
 
 </div>
 
+
+<div class="modal fade" id="exampleModalv6" tabindex="-1" aria-labelledby="exampleModalv6Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content rounded-4 shadow-lg">
+      <div class="modal-header">
+        <div class="d-flex align-items-center ">
+          <img src="assets/images/logo/sounD.png" alt="icon" width="40" height="40" class="me-2">
+          <h4 class="project">Share “ Project”</h4>
+        </div>
+        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+
+      <div class="modal-body p-4">
+        <!-- Modal Header -->
+
+        <!-- Option: Create New PPT -->
+        <div class=" mt-5">
+
+          <!-- Tabs nav -->
+          <ul class="nav nav-tabs" id="inviteTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="email-tab" data-bs-toggle="tab" data-bs-target="#email-content"
+                type="button" role="tab" aria-selected="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                  <path
+                    d="M9.5906 5.69165C11.6906 5.87248 12.5481 6.95165 12.5481 9.31415V9.38998C12.5481 11.9975 11.5039 13.0417 8.89643 13.0417H5.09893C2.49143 13.0417 1.44727 11.9975 1.44727 9.38998V9.31415C1.44727 6.96915 2.2931 5.88998 4.3581 5.69748"
+                    stroke="white" stroke-width="0.875" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M7 9.25015V2.61182" stroke="white" stroke-width="0.875" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M8.95423 3.91242L7.00007 1.95825L5.0459 3.91242" stroke="white" stroke-width="0.875"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg> Explore
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="link-tab" data-bs-toggle="tab" data-bs-target="#link-content" type="button"
+                role="tab" aria-selected="false" tabindex="-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                  <path
+                    d="M12.6406 8.84175L12.4073 11.7584C12.3198 12.6509 12.2498 13.3334 10.669 13.3334H3.33062C1.74978 13.3334 1.67978 12.6509 1.59228 11.7584L1.35895 8.84175C1.31228 8.35758 1.46395 7.90841 1.73812 7.56425C1.74395 7.55841 1.74395 7.55841 1.74978 7.55258C2.07062 7.16175 2.55478 6.91675 3.09728 6.91675H10.9023C11.4448 6.91675 11.9231 7.16175 12.2381 7.54091C12.244 7.54675 12.2498 7.55258 12.2498 7.55841C12.5356 7.90258 12.6931 8.35175 12.6406 8.84175Z"
+                    stroke="#1C0C13" stroke-width="0.875" stroke-miterlimit="10" />
+                  <path
+                    d="M2.04199 7.16742V4.16325C2.04199 2.17992 2.53783 1.68408 4.52116 1.68408H5.26199C6.00283 1.68408 6.17199 1.90575 6.45199 2.27908L7.19283 3.27075C7.37949 3.51575 7.49033 3.66742 7.98616 3.66742H9.47366C11.457 3.66742 11.9528 4.16325 11.9528 6.14658V7.19075"
+                    stroke="#1C0C13" stroke-width="0.875" stroke-miterlimit="10" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M5.50098 10.4167H8.49931" stroke="#1C0C13" stroke-width="0.875" stroke-miterlimit="10"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </svg> My Voices
+              </button>
+            </li>
+          </ul>
+
+          <br>
+          <br>
+
+          <!-- Tabs content -->
+          <div class="tab-content  border-top-0 " id="inviteTabContent">
+
+            <!-- Tab 1: Invite with email address -->
+            <div class="tab-pane fade active show" id="email-content" role="tabpanel" aria-labelledby="email-tab">
+
+
+              <p class="title">Trending Voice ></p>
+              <!-- Search + Create -->
+
+              <!-- Folder List -->
+              <div class="list-group">
+                <!-- Folder Item -->
+                <div class="  shadow-1 folder-box">
+                  <div class="marco-card">
+                    <div class="marco-left-section">
+                      <img src="assets/images/logo/user1.png" alt="">
+                      <div class="marco-text-block">
+                        <div class="title">Samrah Lee (Owner)</div>
+                        <div class="text2">a.samrah_lee@presently.com</div>
+                      </div>
+                    </div>
+                    <div class="marco-right-section">
+                      <img src="assets/images/logo/play.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Another Folder -->
+                <div class="  shadow-1 folder-box">
+                  <div class="marco-card">
+                    <div class="marco-left-section">
+                      <img src="assets/images/logo/user1.png" alt="">
+                      <div class="marco-text-block">
+                        <div class="title">Samrah Lee (Owner)</div>
+                        <div class="text2">a.samrah_lee@presently.com</div>
+                      </div>
+                    </div>
+                    <div class="marco-right-section">
+                      <img src="assets/images/logo/playcolor.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Another Folder -->
+
+              </div>
+              <br>
+              <p class="title">Best For PPT ></p>
+              <!-- Search + Create -->
+
+              <!-- Folder List -->
+              <div class="list-group">
+                <!-- Folder Item -->
+                <div class="  shadow-1 folder-box">
+                  <div class="marco-card">
+                    <div class="marco-left-section">
+                      <img src="assets/images/logo/user1.png" alt="">
+                      <div class="marco-text-block">
+                        <div class="title">Samrah Lee (Owner)</div>
+                        <div class="text2">a.samrah_lee@presently.com</div>
+                      </div>
+                    </div>
+                    <div class="marco-right-section">
+                      <img src="assets/images/logo/play.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Another Folder -->
+                <div class="  shadow-1 folder-box">
+                  <div class="marco-card">
+                    <div class="marco-left-section">
+                      <img src="assets/images/logo/user1.png" alt="">
+                      <div class="marco-text-block">
+                        <div class="title">Samrah Lee (Owner)</div>
+                        <div class="text2">a.samrah_lee@presently.com</div>
+                      </div>
+                    </div>
+                    <div class="marco-right-section">
+                      <img src="assets/images/logo/playcolor.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Another Folder -->
+
+              </div>
+
+            </div>
+
+            <!-- Tab 2: Invite with link -->
+            <div class="tab-pane fade" id="link-content" role="tabpanel" aria-labelledby="link-tab">
+
+              <p class="text2">You can join a folder to keep track of what folks are working on.</p>
+
+              <!-- Search + Create -->
+              <div class="row mb-3">
+                <div class="col-md-7">
+                  <input type="text" class="form-control me-2" placeholder="Find or create a new folder">
+                </div>
+                <div class="col-md-5">
+                  <button class="btn create"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                      viewBox="0 0 19 19" fill="none">
+                      <path d="M9.81982 12.875V9.125" stroke="#1C0C13" stroke-width="1.125" stroke-miterlimit="10"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M11.6499 11H7.8999" stroke="#1C0C13" stroke-width="1.125" stroke-miterlimit="10"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M17.2749 8.75V13.25C17.2749 16.25 16.5249 17 13.5249 17H6.0249C3.0249 17 2.2749 16.25 2.2749 13.25V5.75C2.2749 2.75 3.0249 2 6.0249 2H7.1499C8.2749 2 8.5224 2.33 8.9499 2.9L10.0749 4.4C10.3599 4.775 10.5249 5 11.2749 5H13.5249C16.5249 5 17.2749 5.75 17.2749 8.75Z"
+                        stroke="#1C0C13" stroke-width="1.125" stroke-miterlimit="10" />
+                    </svg> Create Folder</button>
+                </div>
+              </div>
+
+              <!-- Folder List -->
+              <div class="list-group">
+                <!-- Folder Item -->
+                <div class="  shadow-1 folder-box">
+                  <div class="d-flex align-items-start">
+                    <img src="assets/images/logo/marketing.png" alt="ppt-icon" class="me-3">
+                    <div>
+                      <h6 class="mb-1 ppt">Marketing Strategy - Q4 2023</h6>
+                      <p class="text2">8 member, Including you</p>
+
+                    </div>
+                    <div>
+                      <img src="assets/images/logo/people.png" alt="ppt-icon" class="me-3">
+                    </div>
+                    <div>
+                      <img src="assets/images/logo/leave.png" alt="ppt-icon" class="me-3">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Another Folder -->
+                <div class="  shadow-1 folder-box">
+                  <div class="d-flex align-items-start">
+                    <img src="assets/images/logo/marketing.png" alt="ppt-icon" class="me-3">
+                    <div>
+                      <h6 class="mb-1 ppt">Product Launch - Q1 2024</h6>
+                      <p class="text2">8 member, Including you</p>
+
+                    </div>
+                    <div>
+                      <img src="assets/images/logo/people.png" alt="ppt-icon" class="me-3">
+                    </div>
+                    <div>
+                      <img src="assets/images/logo/leave.png" alt="ppt-icon" class="me-3">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Another Folder -->
+                <div class="  shadow-1 folder-box">
+                  <div class="d-flex align-items-start">
+                    <img src="assets/images/logo/marketing.png" alt="ppt-icon" class="me-3">
+                    <div>
+                      <h6 class="mb-1 ppt">Customer Feedback Review - </h6>
+                      <p class="text2">8 member, Including you</p>
+
+                    </div>
+                    <div>
+                      <img src="assets/images/logo/people.png" alt="ppt-icon" class="me-3">
+                    </div>
+                    <div>
+                      <img src="assets/images/logo/leave.png" alt="ppt-icon" class="me-3">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Option: Add New Folder -->
+
+      </div>
+      <!-- <div class="modal-footer">
+        <button class="btn create-btn1 w-100" data-bs-toggle="modal" data-original-title="test"
+          data-bs-target="#exampleModalv1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+            <path
+              d="M10.6182 12.8959H11.6877C13.8269 12.8959 15.5836 11.1463 15.5836 9.00008C15.5836 6.86091 13.834 5.10425 11.6877 5.10425H10.6182"
+              stroke="white" stroke-width="1.0625" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M6.37533 5.10425H5.31283C3.16658 5.10425 1.41699 6.85383 1.41699 9.00008C1.41699 11.1392 3.16658 12.8959 5.31283 12.8959H6.37533"
+              stroke="white" stroke-width="1.0625" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M5.66699 9H11.3337" stroke="white" stroke-width="1.0625" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          Copy Link
+        </button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
 <div class="modal fade" id="exampleModalv5" tabindex="-1" aria-labelledby="exampleModalv5Label" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content rounded-4 shadow-lg">
@@ -422,7 +680,7 @@
               <!-- Folder List -->
               <div class="list-group">
                 <!-- Folder Item -->
-                <div class="  shadow-1 folder-box" >
+                <div class="  shadow-1 folder-box">
                   <div class="d-flex align-items-start">
                     <img src="assets/images/logo/marketing.png" alt="ppt-icon" class="me-3">
                     <div>
@@ -602,25 +860,25 @@
                   </div>
                   <div class="marco-right-section dropdown">
                     <button class="access dropdown-toggle" data-bs-toggle="dropdown">
-                     Full Access
+                      Full Access
                     </button>
                     <div class="dropdown-menu p-3 text-muted form-wrapper">
-                        <p class="Permissions">
-                      Permissions
-                     
+                      <p class="Permissions">
+                        Permissions
+
                       </p>
                       <br>
                       <p class="mb-2 foler">
-                       Add to Collection
-                       <p class="text2">Can view, edit, and share with others.</p>
+                        Add to Collection
+                      <p class="text2">Can view, edit, and share with others.</p>
                       </p>
                       <p class="mb-2 foler">
-                         Copy voice ID
-                          <p class="text2">Can view, edit, but not share with others.</p>
+                        Copy voice ID
+                      <p class="text2">Can view, edit, but not share with others.</p>
                       </p>
                       <p class="mb-0 foler">
-                         Copy link
-                          <p class="text2">Can view but cannot edit or share.</p>
+                        Copy link
+                      <p class="text2">Can view but cannot edit or share.</p>
                       </p>
                     </div>
                   </div>
