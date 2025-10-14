@@ -57813,6 +57813,42 @@ label {
   right: 30px;
 }
 
+.header-section {
+  background-color: #111;
+  height: 100px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle span {
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .header-section {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .circle {
+    margin: 5px 0;
+  }
+
+  .text-center h5 {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 575px) {
   .sidebar-pannle-main {
     display: none;
