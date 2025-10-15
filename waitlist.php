@@ -2,12 +2,21 @@
 
 
 <style>
+
+    html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-image: url(./assets/images/logo/Waitlist.png);
+    /* background-image: url(./assets/images/logo/Waitlist.png); */
+    background-image: url(./assets/images/logo/Waitlist3.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;      /* full screen fill kare */
+    background-position: center; /* image center me rahe */
+    overflow-y: auto;            /* vertical scroll enable */
+    overflow-x: hidden;    
 }
     .footer {
         background-color: #fbe6e9;
@@ -57,7 +66,7 @@ body {
 
 </style>
 
-<div class="app-container d-flex">
+<div class="app-container d-flex" >
 
 
     <!-- Left Sidebar -->
@@ -132,6 +141,11 @@ body {
 
                     <p class="sign1"><img src="assets/images/logo/people-new.png" alt=""> Join +1,000 other on the
                         waitlist</p>
+                </div>
+
+                   <div class="greeting text-center">
+
+                   <img class="w-100" src="assets/images/logo/imgnew.png" alt="">
                 </div>
 
                 <!-- <div class="text-center mb-5">
