@@ -18,14 +18,7 @@
 }
 </style>
 
-
-
-
-
 <div class="app-container d-flex">
-
-
-
 
 
     <!-- Left Sidebar -->
