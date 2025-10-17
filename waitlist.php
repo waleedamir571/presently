@@ -88,11 +88,10 @@ body {
                 <div class="text-center mb-5">
                     <img src="assets/images/logo/logo.png" alt="">
                 </div>
-                <section class="d-flex align-items-center justify-content-between px-4 text-center">
-                    <div class="greeting">
-                        <h1>Get Early <span class="samrah">Access</span></h1>
-                        <p class="text1"> We’re getting Open soon, Sign up for get early access to Prezently and start
-                            creating ppt pitch ready</p>
+                <section class="text-center align-items-center  px-4 ">
+                    <div class="greeting text-center">
+                        <h1 class="text-center">Get Early <span class="samrah">Access</span></h1>
+                        <p class="text1 text-center">  We’re opening soon! Sign up now to get two months of PreZently Premium for free.</p>
                     </div>
 
 
