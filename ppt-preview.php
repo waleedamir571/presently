@@ -4,18 +4,18 @@
 <style>
     body {
 
-    background: black !important;
-}
+        background: black !important;
+    }
 
-.footer {
-    background-color: #fbe6e9;
-    padding: 10px;
-    text-align: center;
-    color: #c6364e;
-    font-weight: 600;
-    border-top: 1px solid #f1cdd0;
-    display: none;
-}
+    .footer {
+        background-color: #fbe6e9;
+        padding: 10px;
+        text-align: center;
+        color: #c6364e;
+        font-weight: 600;
+        border-top: 1px solid #f1cdd0;
+        display: none;
+    }
 </style>
 
 <div class="app-container d-flex">
@@ -42,7 +42,7 @@
                 </div>
                 <section class="header-section d-flex align-items-center justify-content-between px-4">
                     <div class="circle">
-                       <img src="assets/images/logo/forwarD.png" alt="">
+                        <img src="assets/images/logo/forwarD.png" alt="">
                     </div>
 
                     <div class="text-center">
@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="circle">
-                          <img src="assets/images/logo/backwar.png" alt="">
+                        <img src="assets/images/logo/backwar.png" alt="">
                     </div>
                 </section>
                 <!-- <div class="text-center mb-5">

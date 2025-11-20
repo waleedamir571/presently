@@ -920,8 +920,8 @@
   </div>
 </div>
 
-<div class="modal fade" id="exampleModalv3" tabindex="-1" aria-labelledby="exampleModalv3Label" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
+<div class="modal fade" id="exampleModalv13" tabindex="-1" aria-labelledby="exampleModalv13Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content rounded-4 shadow-lg">
       <div class="modal-header">
         <div class="d-flex align-items-center">
@@ -933,15 +933,51 @@
 
       <div class="modal-body p-4">
         <div class="row mb-3">
+          <p class="text2">This briefing form is your co-pilot set your goal, tone, and length, and our AI will craft a
+            matching
+            script and narration</p>
 
 
-          <div class="col-md-12">
+          <div class="col-md-12 pb-4">
             <div>
-              <label class="col-form-label">Prompt</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
-                placeholder="Your weapons are but toothpicks to me. Surrender now and I may grant you a swift end. I've toppled kingdoms and devoured armies. What hope do you have against me?"></textarea>
+              <div class="form-group pb-4">
+                <Div class="label-wrap">
+                <label class="col-form-label">My presentation's primary goal is to</label>
+                <button class="access">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path
+                      d="M10.1809 7.55418C10.1833 7.65658 10.152 7.75693 10.0919 7.83986C10.0326 7.92442 9.94697 7.98699 9.84838 8.01783L9.04754 8.28478C8.80086 8.3667 8.57646 8.50454 8.39187 8.68755C8.20749 8.87105 8.06943 9.09579 7.9891 9.34321L7.7081 10.1394C7.67883 10.2349 7.61975 10.3186 7.5395 10.3782C7.45385 10.4364 7.35267 10.4674 7.24914 10.4672C7.14523 10.4717 7.04281 10.4414 6.95801 10.3812C6.87321 10.321 6.81087 10.2343 6.7808 10.1347L6.51385 9.33385C6.43352 9.08643 6.29547 8.86168 6.11109 8.67818C5.92497 8.49603 5.70115 8.35694 5.45542 8.27073L4.65457 8.00846C4.55976 7.97523 4.47674 7.91499 4.41572 7.83518C4.35423 7.75061 4.31993 7.64934 4.31737 7.54481C4.31293 7.44091 4.3432 7.33849 4.4034 7.25369C4.46361 7.16889 4.55033 7.10654 4.64989 7.07648L5.45542 6.80953C5.70524 6.7288 5.93231 6.5899 6.11795 6.40426C6.30359 6.21862 6.44249 5.99155 6.52322 5.74173L6.79017 4.95025C6.81747 4.85286 6.87556 4.76693 6.95576 4.7053C7.03596 4.64367 7.13395 4.60967 7.23509 4.60836C7.33578 4.60836 7.4346 4.63599 7.52077 4.68798C7.60601 4.74652 7.67157 4.82988 7.7081 4.92683L7.97974 5.74173C8.06046 5.99155 8.19936 6.21862 8.385 6.40426C8.57064 6.5899 8.79772 6.7288 9.04754 6.80953L9.8437 7.09053C9.94056 7.12228 10.0244 7.18476 10.0826 7.2685C10.146 7.35024 10.1806 7.4507 10.1809 7.55418ZM5.49804 4.57558C5.49732 4.66739 5.46963 4.75696 5.41842 4.83316C5.36306 4.90856 5.2864 4.96565 5.1983 4.99708L4.6082 5.19378C4.44288 5.25092 4.29302 5.34365 4.16797 5.46541C4.04574 5.59007 3.95293 5.74048 3.89634 5.90565L3.69495 6.48638C3.6664 6.57598 3.6087 6.65346 3.53104 6.7065C3.45404 6.76025 3.36267 6.78962 3.26877 6.7908C3.17277 6.7892 3.07958 6.75814 3.00182 6.70181C2.92816 6.64579 2.87275 6.56919 2.84259 6.4817L2.65057 5.89628C2.59423 5.73238 2.50134 5.58343 2.37894 5.46073C2.25899 5.33489 2.10916 5.24145 1.94339 5.1891L1.35797 4.9924C1.26713 4.9638 1.18817 4.90623 1.13317 4.82848C1.09589 4.77009 1.07203 4.70416 1.0633 4.63544C1.05457 4.56672 1.0612 4.49692 1.0827 4.43107C1.10421 4.36522 1.14005 4.30496 1.18765 4.25463C1.23525 4.20431 1.29342 4.16516 1.35797 4.14003L1.94339 3.94801C2.10903 3.89017 2.2595 3.7957 2.38356 3.67164C2.50763 3.54757 2.6021 3.39711 2.65994 3.23146L2.85195 2.65541C2.87956 2.56908 2.93162 2.49262 3.00182 2.4353C3.07642 2.37909 3.16612 2.34647 3.2594 2.34163C3.35391 2.33909 3.44697 2.36521 3.52635 2.41656C3.60448 2.4693 3.66487 2.54438 3.69964 2.632L3.89634 3.23146C3.95417 3.39711 4.04865 3.54757 4.17271 3.67164C4.29678 3.7957 4.44724 3.89017 4.61289 3.94801L5.1983 4.1494C5.28586 4.17947 5.3614 4.23695 5.41374 4.31331C5.46917 4.38947 5.49872 4.48139 5.49804 4.57558ZM8.20922 2.06531C8.20498 2.1507 8.17744 2.23331 8.1296 2.30416C8.08087 2.37095 8.01188 2.42022 7.9329 2.44466L7.64254 2.54301C7.58613 2.56248 7.53489 2.59452 7.4927 2.63671C7.45051 2.6789 7.41847 2.73014 7.399 2.78655L7.29597 3.0816C7.26769 3.15344 7.22081 3.21648 7.16015 3.26425C7.09111 3.31956 7.00508 3.34934 6.91662 3.34855C6.83566 3.34352 6.75703 3.31945 6.68714 3.2783C6.61712 3.22671 6.56477 3.15473 6.53727 3.07223L6.43892 2.78186C6.422 2.72427 6.3896 2.67243 6.34525 2.632C6.30397 2.58867 6.25242 2.55646 6.19539 2.53833L5.90502 2.44466C5.82775 2.41454 5.75987 2.36444 5.70832 2.29948C5.65973 2.22929 5.6336 2.146 5.63339 2.06063C5.63611 1.97496 5.66378 1.89195 5.713 1.82178C5.76345 1.75675 5.83182 1.7079 5.9097 1.68128L6.19539 1.58761C6.25307 1.56793 6.3058 1.53597 6.34994 1.49395C6.39196 1.44981 6.42392 1.39708 6.4436 1.3394L6.54195 1.04903C6.57005 0.976437 6.61454 0.912276 6.67309 0.861696C6.74028 0.812105 6.81951 0.781383 6.90257 0.772712C6.99095 0.772206 7.07744 0.798317 7.15079 0.847646C7.2168 0.897313 7.26851 0.963559 7.30065 1.03966L7.399 1.3394C7.41868 1.39708 7.45064 1.44981 7.49267 1.49395C7.53623 1.5344 7.58709 1.56618 7.64254 1.58761L7.93759 1.68596C8.01262 1.71549 8.07876 1.76388 8.1296 1.82646C8.18069 1.89568 8.20856 1.97929 8.20922 2.06531Z"
+                      fill="#1C0C13" />
+                  </svg> Auto generate
+                </button>
+                </Div>
+                <input class="form-control" type="text" required=""
+                  placeholder="Inform/Educate, Persuade/Sell, Train/instruct, Motivate/inspire, Entertain.">
+              </div>
+              <label class="col-form-label">I want the script to have a tone that is primarily</label>
+              <input class="form-control" type="text" required=""
+                placeholder="professional. Humorous. Consent, Informative. Technical/Detailed, Casual/friendly. Empathetic">
+
             </div>
           </div>
+          <div class="row ">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="col-form-label">Approx. Narration Length</label>
+                <input class="form-control" type="text" required="" placeholder="00H : 00M">
+              </div>
+
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="col-form-label">The target audience for this presentation is</label>
+                <input class="form-control" type="text" required=""
+                  placeholder="Senior Executives, College Students, Non-Technical Client.">
+              </div>
+
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -959,9 +995,74 @@
               d="M7.00008 12.8332C10.2217 12.8332 12.8334 10.2215 12.8334 6.99984C12.8334 3.77818 10.2217 1.1665 7.00008 1.1665C3.77842 1.1665 1.16675 3.77818 1.16675 6.99984C1.16675 10.2215 3.77842 12.8332 7.00008 12.8332Z"
               stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
-          Next
+          Generate Voice
         </button>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModalv7" tabindex="-1" aria-labelledby="exampleModalv7" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-4 shadow-lg">
+      <div class="modal-header">
+        <div class="d-flex align-items-center ">
+          <img src="assets/images/logo/sounD.png" alt="icon" width="40" height="40" class="me-2">
+          <h4 class="project">Voice Design</h4>
+        </div>
+        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-4">
+        <!-- Header -->
+
+
+        <!-- Subtext -->
+
+
+        <!-- Search + Create -->
+        <div class="row mb-3">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label class="col-form-label">Prompt</label>
+              <input class="form-control" type="text" required="" placeholder="A massive evil ogre, troll">
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div>
+              <label class="col-form-label">Text to preview</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                placeholder="Your weapons are but toothpicks to me. Surrender now and I may grant you a swift end. I've toppled kingdoms and devoured armies. What hope do you have against me?"></textarea>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- Folder List -->
+        <div class="row">
+          <div class="col-md-12">
+            <button class="create-btn w-100" data-bs-toggle="modal" data-original-title="test"
+              data-bs-target="#exampleModalv8">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M3.5 5.75195V8.25448" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M5.25 4.91748V9.08249" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M7 4.0835V9.91683" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M8.75 4.91748V9.08249" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M10.5 5.75195V8.25448" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path
+                  d="M7.00008 12.8332C10.2217 12.8332 12.8334 10.2215 12.8334 6.99984C12.8334 3.77818 10.2217 1.1665 7.00008 1.1665C3.77842 1.1665 1.16675 3.77818 1.16675 6.99984C1.16675 10.2215 3.77842 12.8332 7.00008 12.8332Z"
+                  stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              Next
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
   </div>
 </div>
