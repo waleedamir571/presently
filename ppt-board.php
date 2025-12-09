@@ -2,10 +2,15 @@
 
 
 
+
+<div class="bgppt">
 <div class="app-container d-flex">
 
 
   <!-- Left Sidebar -->
+
+  <div class="p-left">
+   <div class="bgwhite">
   <aside class="sidebar-custom border-end p-3" style="width: 260px; overflow-y: auto;">
     <div class="slider">Slider 4/12</div>
     <br>
@@ -60,6 +65,8 @@
       <!-- Repeat 7 more times with incremented slide numbers -->
     </div>
   </aside>
+  </div>
+  </div>
 
   <!-- Main Content -->
   <main class="flex-grow-1  p-4 main-content">
@@ -235,6 +242,7 @@
     </div>
   </aside>
 
+</div>
 </div>
 
 
