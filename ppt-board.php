@@ -301,7 +301,6 @@
             <!-- Tab 1: Invite with email address -->
             <div class="tab-pane fade active show" id="email-content" role="tabpanel" aria-labelledby="email-tab">
 
-
               <p class="title">Trending Voice ></p>
               <!-- Search + Create -->
 
@@ -381,7 +380,6 @@
                 </div>
 
                 <!-- Another Folder -->
-
               </div>
             </div>
 

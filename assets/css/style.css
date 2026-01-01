@@ -193,6 +193,10 @@
   --bs-form-invalid-border-color: rgb(234, 133.8, 143.4);
 }
 
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands" !important;
+}
+
  .audio-card {
       display: flex;
       align-items: center;
@@ -336,12 +340,16 @@
       font-weight: 500;
     }
 
-    .avatar {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
+   .avatar
+
+ {
+    width: 36px;
+    height: 36px;
+    /* border-radius: 50%; */
+    /* object-fit: cover; */
+    display: inline-flex;
+    margin-left: -60px;
+}
 
     .project-info {
       background-color: white;
